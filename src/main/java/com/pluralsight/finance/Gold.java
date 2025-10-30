@@ -3,8 +3,8 @@ package com.pluralsight.finance;
 public abstract class Gold extends FixedAsset {
     private double gold;
 
-    public Gold(String name, double marketValue, double gold) {
-        super(name, marketValue);
+    public Gold(double gold) {
+        super("gold", 0);
         this.gold = gold;
     }
 
